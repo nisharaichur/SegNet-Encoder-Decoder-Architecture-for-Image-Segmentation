@@ -1,0 +1,5 @@
+Credits
+
+This repository uses Open Source components. You can find the source code of their open source projects below. I acknowledge and am grateful to these developers for their contributions to open source.
+
+Repository: https://github.com/toimcio/SegNet-tensorflow
