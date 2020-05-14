@@ -1,8 +1,5 @@
 # segNet_tensorflow: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation using tensorflow.
-
-The implementation for SegNet is based on the paper listed below:
-
-http://arxiv.org/abs/1511.02680 Alex Kendall, Vijay Badrinarayanan and Roberto Cipolla "Bayesian SegNet: Model Uncertainty in Deep Convolutional Encoder-Decoder Architectures for Scene Understanding." arXiv preprint arXiv:1511.02680, 2015.
+Implements the research paper: https://arxiv.org/pdf/1511.00561.pdf 
 
 ## Prerequisites
  - Tensorflow 1.15.0
@@ -16,6 +13,12 @@ http://arxiv.org/abs/1511.02680 Alex Kendall, Vijay Badrinarayanan and Roberto C
  - Testing images: 100
  - Validation Images: 100
  - Resolution: 360 x 480
+# SegNet architecture 
+There are no fully connected layers and hence it is only convolutional. A decoder upsamples its
+input using the transferred pool indices from its encoder to produce a sparse feature map(s). It then performs convolution with a trainable filter bank
+to densify the feature map. The final decoder output feature maps are fed to a soft-max classifier for pixel-wise classification
+
+<img src="
 
 # Python files
  - main.py: contains the SegNet model
