@@ -18,7 +18,7 @@ There are no fully connected layers and hence it is only convolutional. A decode
 input using the transferred pool indices from its encoder to produce a sparse feature map(s). It then performs convolution with a trainable filter bank
 to densify the feature map. The final decoder output feature maps are fed to a soft-max classifier for pixel-wise classification
 
-<img src="
+<img src=>
 
 # Python files
  - main.py: contains the SegNet model
