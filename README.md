@@ -32,4 +32,4 @@ to densify the feature map. The final decoder output feature maps are fed to a s
 | SGD+MFB | 73.750 | 58.238 | 11.090 | 69.270 | 69.780 | 85.930 | 74.110 | 0.0019 | 87.45 | 31.75 | 27.28 | 65.91 | 37.29
 | SGD | 89.97 | 66.09 | 3.13 | 67.18 | 75.78 | 64.8 | 45.419 | 0.000 | 88 | 16.880 | 39.10 | 66.159 | 28.68 |
 
-
+<img src=/image.png >
