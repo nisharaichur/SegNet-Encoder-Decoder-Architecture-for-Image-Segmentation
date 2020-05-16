@@ -1,4 +1,4 @@
-# segNet_tensorflow: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation using tensorflow.
+# SegNet_tensorflow: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation using tensorflow.
 Implements the research paper: https://arxiv.org/pdf/1511.00561.pdf 
 
 ## Prerequisites
